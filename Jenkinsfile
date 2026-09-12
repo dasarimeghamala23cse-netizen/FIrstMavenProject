@@ -32,7 +32,7 @@ pipeline {
         emailext(
             subject: "SUCCESS: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
             body: "The Jenkins CI pipeline completed successfully.",
-            to: "YOUR_EMAIL@gmail.com"
+            to: "dasarimeghamala.23.cse@anits.edu.in"
         )
     }
     failure {
